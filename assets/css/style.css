@@ -1,0 +1,149 @@
+/* ---------------------- */
+/* Reset & Global Styles  */
+/* ---------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.body{
+      opacity: 1;
+      transition: opacity 0.8s ease-in-out;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
+a, p {
+  margin: 0;
+  text-decoration: none;
+}
+
+/* ---------------------- */
+/* Typography             */
+/* ---------------------- */
+.text {
+  text-indent: 3rem;
+}
+
+.description {
+  line-height: 30px;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.information span {
+  font-size: 28px;
+}
+
+.information h1 {
+  font-size: 58px;
+  letter-spacing: 4px;
+}
+
+.inf-items span {
+  font-size: 12px;
+}
+
+/* ---------------------- */
+/* Layout & Components    */
+/* ---------------------- */
+.btn {
+  margin-top: 20px;
+  width: 160px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-custom {
+  width: 160px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.information {
+  border-radius: 18px;
+}
+
+.information button {
+  width: 170px;
+}
+
+.contact-item i {
+  font-size: 25px;
+  color: black !important;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.social-links a:hover{
+      transform: scale(1.05) translateY(-5px);
+      transition: all 0.3s ease;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important; 
+}
+
+.inf-items:hover{
+      transform: scale(1.05) translateX(15px);
+        transition: all 0.3s ease;
+}
+
+.inf-items i {
+  font-size: 30px;
+}
+
+.shadow-extra {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------------------- */
+/* Responsive (Mobile)    */
+/* ---------------------- */
+@media (max-width: 480px) {
+  .information {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .avatar {
+    margin: 15px 0;
+  }
+
+  .box-projects {
+    justify-content: center !important;
+  }
+
+  .form {
+    margin-top: 20px;
+  }
+}
+
+
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+

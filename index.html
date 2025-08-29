@@ -4,13 +4,13 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>hieut.in</title>
+      <link rel="stylesheet" href="./assets/css/reset.css">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
-      <link rel="stylesheet" href="./assets/style.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -24,28 +24,32 @@
                               <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="navbar-nav w-100 justify-content-center gap-5">
+                              <ul class="navbar-nav w-100 justify-content-end align-items-center gap-5">
                                     <li class="nav-item">
-                                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                                          <a class="nav-link active" aria-current="page" href="#about">About</a>
                                     </li>
                                     <li class="nav-item">
-                                          <a class="nav-link" href="#">Skills</a>
+                                          <a class="nav-link" href="#skills">Skills</a>
                                     </li>
                                     <li class="nav-item">
-                                          <a class="nav-link" href="#">Projects</a>
+                                          <a class="nav-link" href="#projects">Projects</a>
                                     </li>
                                     <li class="nav-item">
-                                          <a class="nav-link" href="#">Contact</a>
+                                          <a class="nav-link" href="#contact">Contact</a>
                                     </li>
+                                    <form class="d-flex" role="search">
+                                          <input class="form-control me-2" type="search" placeholder="Search"
+                                                aria-label="Search" />
+                                          <button class="btn btn-outline-success m-0" type="submit">Search</button>
+                                    </form>
                               </ul>
-                           
                         </div>
                   </div>
             </nav>
       </header>
       <main id="main" class="mt-5">
             <div class="container-lg  py-4">
-                  <section id="hero">
+                  <section id="hero" class="fade">
                         <div class="row">
                               <div class="col-sm-6">
                                     <div
@@ -60,19 +64,23 @@
                                                 MORE</button>
                                           <div class="social-links d-flex flex-row gap-4">
                                                 <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                      href="#"><i class="bi bi-facebook fs-5"></i></a>
+                                                      href="https://www.facebook.com/hieutrandzz" target="_blank"><i
+                                                            class="bi bi-facebook fs-5"></i></a>
                                                 <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                      href="#"><i class="bi bi-instagram fs-5"></i></a>
+                                                      href="https://www.instagram.com/hieuutran_/" target="_blank"><i
+                                                            class="bi bi-instagram fs-5"></i></a>
                                                 <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                      href="#"><i class="bi bi-github fs-5"></i></a>
+                                                      href="https://github.com/HieuTrann18" target="_blank"><i
+                                                            class="bi bi-github fs-5"></i></a>
                                                 <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                      href="#"><i class="bi bi-linkedin fs-5"></i></a>
+                                                      href="#" target="_blank"><i class="bi bi-linkedin fs-5"></i></a>
                                           </div>
                                     </div>
                               </div>
                               <div class="col-sm-6">
-                                    <div class="avatar shadow-lg px-5 py-5 rounded">
-                                          <img src="./assets/avatar.jpg" class="img-fluid rounded avatar" alt="...">
+                                    <div class="avatar shadow-lg px-4 py-4 rounded">
+                                          <img src="./assets/images/avatar.jpg" class="img-fluid rounded avatar"
+                                                alt="avatar">
                                     </div>
                               </div>
                         </div>
@@ -81,12 +89,13 @@
                         <h3 class="m-0">ABOUT
                               ME</h3>
                   </section>
-                  <section id="about" class="mt-5">
+                  <section id="about" class="mt-5 fade">
                         <div class="row">
                               <div class="col-sm-12 shadow-lg py-5 px-5">
                                     <div class="row">
                                           <div class="col-sm-6">
-                                                <img src="./assets/avt.jpg" class="img-fluid rounded avatar" alt="...">
+                                                <img src="./assets/images/avt.jpg" class="img-fluid rounded avatar"
+                                                      alt="avatar">
                                           </div>
                                           <div class="col-sm-6">
                                                 <div class="d-flex flex-column gap-4">
@@ -131,7 +140,7 @@
 
                                                       </div>
                                                       <div class="description mt-5">
-                                                            <p style="text-indent: 30px;"> I’m a software engineer who
+                                                            <p class="text"> I’m a software engineer who
                                                                   loves turning ideas into smooth,
                                                                   user-friendly digital experiences. My main focus is on
                                                                   frontend development with React and Next.js, where I
@@ -143,7 +152,7 @@
                                                                   tools like Node.js and NestJS, which helps me approach
                                                                   projects from a full-stack perspective.</p>
                                                             <br>
-                                                            <p style="text-indent: 30px;"> What excites me most about
+                                                            <p class="text"> What excites me most about
                                                                   technology is the opportunity to
                                                                   solve real problems and create products that people
                                                                   genuinely enjoy using. I’ve had the chance to
@@ -151,7 +160,7 @@
                                                                   with motivated teammates on projects that emphasize
                                                                   accessibility, scalability, and clean design.</p>
                                                             <br>
-                                                            <p style="text-indent: 30px;"> Outside of coding, I’m always
+                                                            <p class="text"> Outside of coding, I’m always
                                                                   curious—whether that’s
                                                                   experimenting with new frameworks, sharing knowledge
                                                                   in the
@@ -163,7 +172,7 @@
                                                       <div class="d-flex align-items-center gap-4 py-2">
                                                             <button type="button" class="btn btn-primary m-0">Download
                                                                   resume</button>
-                                                            <button type="button" class="btn-custom">More info</button>
+                                                            <button type="button" class="btn btn-outline-secondary m-0">More info</button>
                                                       </div>
 
                                                 </div>
@@ -176,12 +185,50 @@
                   <section class="m-5 text-center">
                         <h3 class="m-0">SKILLS</h3>
                   </section>
-                  <section id="skills">
-
+                  <section id="skills" class="mt-5 fade">
                         <div class="row">
                               <div class="col-sm-6">
                                     <div class="skill-item mb-4">
-                                          <h6 class="mb-2">React</h6>
+                                          <h6 class="mb-2">HTML</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-html5-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="HTML skill" aria-valuenow="90" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-danger" style="width: 90%">90%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">CSS</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-css3-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="CSS skill" aria-valuenow="80" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-primary" style="width: 80%">80%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">JavaScript</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-javascript-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="JavaScript skill" aria-valuenow="85" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-warning text-dark" style="width: 85%">
+                                                            85%</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">Reactjs</h6>
                                           <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
                                                 <i class="devicon-react-original colored"
                                                       style="font-size: 40px; width: 50px;"></i>
@@ -194,6 +241,9 @@
                                                 </div>
                                           </div>
                                     </div>
+                              </div>
+                              <div class="col-sm-6">
+
                                     <div class="skill-item mb-4">
                                           <h6 class="mb-2">Node.js</h6>
                                           <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
@@ -207,17 +257,15 @@
                                                 </div>
                                           </div>
                                     </div>
-
-                                    <!-- HTML -->
                                     <div class="skill-item mb-4">
-                                          <h6 class="mb-2">HTML</h6>
+                                          <h6 class="mb-2">MongoDB</h6>
                                           <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
-                                                <i class="devicon-html5-plain colored"
+                                                <i class="devicon-mongodb-plain colored"
                                                       style="font-size: 40px; width: 50px;"></i>
                                                 <div class="progress flex-grow-1 ms-3" role="progressbar"
-                                                      aria-label="HTML skill" aria-valuenow="90" aria-valuemin="0"
+                                                      aria-label="MongoDB skill" aria-valuenow="60" aria-valuemin="0"
                                                       aria-valuemax="100">
-                                                      <div class="progress-bar bg-danger" style="width: 90%">90%
+                                                      <div class="progress-bar bg-success" style="width: 60%">60%
                                                       </div>
                                                 </div>
                                           </div>
@@ -235,62 +283,11 @@
                                                 </div>
                                           </div>
                                     </div>
-                              </div>
-                              <div class="col-sm-6">
                                     <div class="skill-item mb-4">
-                                          <h6 class="mb-2">CSS</h6>
-                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
-                                                <i class="devicon-css3-plain colored"
-                                                      style="font-size: 40px; width: 50px;"></i>
-                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
-                                                      aria-label="CSS skill" aria-valuenow="80" aria-valuemin="0"
-                                                      aria-valuemax="100">
-                                                      <div class="progress-bar bg-primary" style="width: 80%">80%
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-
-                                    <!-- JavaScript -->
-                                    <div class="skill-item mb-4">
-                                          <h6 class="mb-2">JavaScript</h6>
-                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
-                                                <i class="devicon-javascript-plain colored"
-                                                      style="font-size: 40px; width: 50px;"></i>
-                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
-                                                      aria-label="JavaScript skill" aria-valuenow="85" aria-valuemin="0"
-                                                      aria-valuemax="100">
-                                                      <div class="progress-bar bg-warning text-dark" style="width: 85%">
-                                                            85%</div>
-                                                </div>
-                                          </div>
-                                    </div>
-
-                                    <!-- MongoDB -->
-                                    <div class="skill-item mb-4">
-                                          <h6 class="mb-2">MongoDB</h6>
-                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
-                                                <i class="devicon-mongodb-plain colored"
-                                                      style="font-size: 40px; width: 50px;"></i>
-                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
-                                                      aria-label="MongoDB skill" aria-valuenow="60" aria-valuemin="0"
-                                                      aria-valuemax="100">
-                                                      <div class="progress-bar bg-success" style="width: 60%">60%
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div class="skill-item mb-4">
-                                          <!-- Tên skill -->
                                           <h6 class="mb-2">Python</h6>
-
-                                          <!-- Icon + progress bar -->
                                           <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
-                                                <!-- Icon -->
                                                 <i class="devicon-python-plain colored"
                                                       style="font-size: 40px; width: 50px;"></i>
-
-                                                <!-- Progress bar -->
                                                 <div class="progress flex-grow-1 ms-3" role="progressbar"
                                                       aria-label="Python skill" aria-valuenow="65" aria-valuemin="0"
                                                       aria-valuemax="100">
@@ -299,30 +296,29 @@
                                                 </div>
                                           </div>
                                     </div>
-
                               </div>
                         </div>
-
                   </section>
                   <section class="m-5 text-center">
                         <h3 class="m-0">PROJECTS</h3>
                   </section>
-                  <section id="projects" class="mt-5">
+                  <section id="projects" class="mt-5 fade">
                         <div class="row">
                               <div class="col-sm-12">
                                     <div
-                                          class="box-projects d-flex justify-content-center align-items-start flex-wrap gap-3">
-                                          <div class="card shadow-lg" style="width: 18rem;">
-                                                <img src="./assets/prj1.jpg" class="card-img-top" alt="...">
+                                          class="box-projects d-flex justify-content-between align-items-start flex-wrap gap-3">
+                                          <div class="card shadow-lg" style="width: 23rem;">
+                                                <img src="./assets/images/prj1.jpg" class="card-img-top" alt="project">
                                                 <div class="card-body">
                                                       <h5 class="card-title">Portfolio
                                                             website</h5>
-                                                      <p class="card-text">This is my first project where I learned how
+                                                      <p class="card-text ">This is my first project where I learned how
                                                             to use HTML, CSS, and JavaScript to build a simple website.
                                                       </p>
                                                       <a href="#" class="btn btn-primary btn-sm">Details</a>
                                                 </div>
                                           </div>
+                                           
                                     </div>
                               </div>
                         </div>
@@ -330,10 +326,9 @@
                   <section class="m-5 text-center">
                         <h3 class="m-0">CONTACT</h3>
                   </section>
-                  <section id="contact">
+                  <section id="contact" class="fade">
                         <div class="row">
                               <div class="col-sm-6">
-
                                     <div
                                           class="contact-inf d-flex justify-content-between flex-column shadow-lg py-4 px-4 w-100 rounded h-100">
                                           <h2 class="py-2">Contact Information</h2>
@@ -342,7 +337,7 @@
 
                                                 <div>
                                                       <h6 class="mb-1">Email</h6>
-                                                      <p class="mb-0">hieu.tt.2455@aptechlearning.edu.vn</p>
+                                                      <a href="#" class="mb-0">hieu.tt.2455@aptechlearning.edu.vn</a>
                                                 </div>
                                           </div>
                                           <div class="contact-item d-flex align-items-center mb-3">
@@ -350,7 +345,7 @@
 
                                                 <div>
                                                       <h6 class="mb-1">Github</h6>
-                                                      <p class="mb-0">https://github.com/HieuTrann18</p>
+                                                      <a href="#" class="mb-0">https://github.com/HieuTrann18</a>
                                                 </div>
                                           </div>
                                           <div class="contact-item d-flex align-items-center mb-3">
@@ -358,15 +353,14 @@
 
                                                 <div>
                                                       <h6 class="mb-1">Linkedin</h6>
-                                                      <p class="mb-0">https://www.linkedin.com</p>
+                                                      <a href="#" class="mb-0">https://www.linkedin.com</a>
                                                 </div>
                                           </div>
                                           <div class="contact-item d-flex align-items-center mb-3">
                                                 <i class="bi bi-discord me-3 fs-4 text-primary"></i>
-
                                                 <div>
                                                       <h6 class="mb-1">Discord</h6>
-                                                      <p class="mb-0">https://discord.com</p>
+                                                      <a href="#" class="mb-0">https://discord.com</a>
                                                 </div>
                                           </div>
                                           <p></p>
@@ -380,20 +374,17 @@
                                                 Send Me a Message</h2>
                                           <div class="mb-3">
                                                 <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                      placeholder="name@example.com">
+                                                <input type="text" class="form-control" placeholder="your name">
                                           </div>
                                           <div class="mb-3">
                                                 <label for="exampleFormControlInput1" class="form-label">Email
                                                       address</label>
-                                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                                      placeholder="name@example.com">
+                                                <input type="email" class="form-control" placeholder="your email">
                                           </div>
                                           <div class="mb-3">
-                                                <label for="exampleFormControlTextarea1" class="form-label">Example
-                                                      textarea</label>
-                                                <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                      rows="3"></textarea>
+                                                <label for="exampleFormControlTextarea1"
+                                                      class="form-label">Message</label>
+                                                <textarea class="form-control" placeholder="..." rows="3"></textarea>
                                           </div>
                                           <button type="button" class="btn btn-success">Send</button>
                                     </div>
@@ -403,23 +394,28 @@
                   </section>
             </div>
       </main>
-      <footer id="footer" class="shadow-lg">
+      <footer id="footer" class="shadow-lg bg-body-tertiary">
             <div class="container-lg">
                   <div class="row">
                         <div class="col-sm-12">
                               <div class="footer-content py-4 d-flex justify-content-between">
-                                    <div class="copyright"> <a class="navbar-brand" href="#">hieut.in</a>
+                                    <div class="copyright d-flex flex-column
+                                    gap-3"> 
+                                          <a class="navbar-brand" href="#">hieut.in</a>
                                           <p>© 2025 HieuTran. All rights reserved.</p>
                                     </div>
                                     <div class="social-links d-flex flex-row gap-4 align-items-center">
                                           <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                href="#"><i class="bi bi-facebook fs-5"></i></a>
+                                                href="https://www.facebook.com/hieutrandzz" target="_blank"><i
+                                                      class="bi bi-facebook fs-5"></i></a>
                                           <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                href="#"><i class="bi bi-instagram fs-5"></i></a>
+                                                href="https://www.instagram.com/hieuutran_/" target="_blank"><i
+                                                      class="bi bi-instagram fs-5"></i></a>
                                           <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                href="#"><i class="bi bi-github fs-5"></i></a>
+                                                href="https://github.com/HieuTrann18" target="_blank"><i
+                                                      class="bi bi-github fs-5"></i></a>
                                           <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
-                                                href="#"><i class="bi bi-linkedin fs-5"></i></a>
+                                                href="#" target="_blank"><i class="bi bi-linkedin fs-5"></i></a>
                                     </div>
 
                               </div>
@@ -432,5 +428,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"></script>
+<script src="./assets/js/script.js"></script>
 
 </html>

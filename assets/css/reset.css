@@ -1,0 +1,106 @@
+/* ===== CSS RESET FULL ===== */
+
+/* Universal reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base HTML */
+html, body {
+  height: 100%;
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; /* fix iOS zoom */
+  -ms-text-size-adjust: 100%;
+}
+
+/* Remove default styles for common tags */
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, code, form, fieldset, legend,
+p, blockquote, th, td,
+figure, figcaption, hr {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Lists */
+ul, ol {
+  list-style: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Images, media */
+img, video, canvas, svg, iframe {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption {
+  text-align: left;
+}
+
+/* Forms */
+button, input, select, textarea {
+  font: inherit;
+  margin: 0;
+  border: none;
+  outline: none;
+  background: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+textarea {
+  resize: vertical;
+}
+
+/* Headings & text */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+p, span, strong, em, small {
+  font: inherit;
+  font-weight: inherit;
+}
+
+/* Quotes */
+blockquote, q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+/* Misc */
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
