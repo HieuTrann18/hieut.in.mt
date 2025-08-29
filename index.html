@@ -1,607 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-            <meta charset="UTF-8">
-            <meta name="viewport"
-                  content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-            <link
-                  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-                  rel="stylesheet"
-                  integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-                  crossorigin="anonymous">
-            <link rel="stylesheet"
-                  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-            <link rel="stylesheet"
-                  href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-            <link rel="stylesheet" href="./assets/style.css">
-      </head>
-      <body>
-            <header id="header">
-                  <nav data-bs-theme="dark"
-                        class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
-                        <div class="container-lg ">
-                              <a class="navbar-brand" href="#">hieut.in</a>
-                              <button class="navbar-toggler" type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#navbarNav"
-                                    aria-controls="navbarNav"
-                                    aria-expanded="false"
-                                    aria-label="Toggle navigation">
-                                    <span
-                                          class="navbar-toggler-icon"></span>
-                              </button>
-                              <div class="collapse navbar-collapse"
-                                    id="navbarNav">
-                                    <ul
-                                          class="navbar-nav w-100 justify-content-center gap-5">
-                                          <li class="nav-item">
-                                                <a class="nav-link active"
-                                                      aria-current="page"
-                                                      href="#">About</a>
-                                          </li>
-                                          <li class="nav-item">
-                                                <a class="nav-link"
-                                                      href="#">Skills</a>
-                                          </li>
-                                          <li class="nav-item">
-                                                <a class="nav-link"
-                                                      href="#">Projects</a>
-                                          </li>
-                                          <li class="nav-item">
-                                                <a class="nav-link ">Contact</a>
-                                          </li>
-                                    </ul>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-                                    <button type="button"
-                                          class="btn btn-primary">Login</button>
+      <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+      <header id="header" class="sticky-top">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg">
+                  <div class="container-lg ">
+                        <a class="navbar-brand" href="#">hieut.in</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                              aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav w-100 justify-content-center gap-5">
+                                    <li class="nav-item">
+                                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link" href="#">Skills</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link" href="#">Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                              </ul>
+                           
+                        </div>
+                  </div>
+            </nav>
+      </header>
+      <main id="main" class="mt-5">
+            <div class="container-lg  py-4">
+                  <section id="hero">
+                        <div class="row">
+                              <div class="col-sm-6">
+                                    <div
+                                          class="information ms-3 d-flex flex-column justify-content-center align-items-start gap-5 h-100 ">
+                                          <span class="m-0 text-uppercase fw-normal fs-4">hey
+                                                there !</span>
+                                          <h1 class="m-0 text-uppercase fw-bold">i'm
+                                                hieu tran</h1>
+                                          <span class="m-0 fs-4">frontend
+                                                developer</span>
+                                          <button type="button" class="btn btn-dark">SEE
+                                                MORE</button>
+                                          <div class="social-links d-flex flex-row gap-4">
+                                                <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                      href="#"><i class="bi bi-facebook fs-5"></i></a>
+                                                <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                      href="#"><i class="bi bi-instagram fs-5"></i></a>
+                                                <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                      href="#"><i class="bi bi-github fs-5"></i></a>
+                                                <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                      href="#"><i class="bi bi-linkedin fs-5"></i></a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="avatar shadow-lg px-5 py-5 rounded">
+                                          <img src="./assets/avatar.jpg" class="img-fluid rounded avatar" alt="...">
+                                    </div>
                               </div>
                         </div>
-                  </nav>
-            </header>
-            <main id="main" class="mt-5">
-                  <div class="container-lg">
-                        <section id="hero">
-                              <div class="row">
-                                    <div class="col-sm-7">
-                                          <div
-                                                class="information d-flex flex-column gap-5">
-                                                <span
-                                                      class="m-0 text-uppercase fw-normal">hey
-                                                      there !</span>
-                                                <h2
-                                                      class="m-0 text-uppercase fw-bold">i'm
-                                                      hieu tran</h2>
-                                                <span class="m-0 ">frontend
-                                                      developer</span>
-                                                <div
-                                                      class="social-links d-flex flex-row gap-4">
-                                                      <a href="#"><i
-                                                                  class="bi bi-facebook"></i></a>
-                                                      <a href="#"><i
-                                                                  class="bi bi-instagram"></i></a>
-                                                      <a href="#"><i
-                                                                  class="bi bi-github"></i></a>
-                                                      <a href="#"><i
-                                                                  class="bi bi-linkedin"></i></a>
-                                                </div>
-                                                <button type="button"
-                                                      class="btn btn-dark">SEE
-                                                      MORE</button>
-                                          </div>
-                                    </div>
-                                    <div class="col-sm-5">
-                                          <img src="./assets/avatar.jpg"
-                                                class="img-fluid rounded avatar"
-                                                alt="...">
-                                    </div>
-                              </div>
-                        </section>
-                        <section class="m-5 text-center"><h3 class="m-0">ABOUT
-                                    ME</h3></section>
-                        <section id="about" class="mt-5">
-                              <div class="row">
-                                    <div class="col-sm-12">
-                                          <div class="information bg-dark">
-                                                <p class="m-0"
-                                                      style="text-indent: 2rem;">
-                                                      Lorem ipsum dolor sit amet
-                                                      consectetur adipisicing
-                                                      elit. Omnis nam
-                                                      accusantium, qui
-                                                      consectetur pariatur
-                                                      optio, quo vel, asperiores
-                                                      aliquid aut neque
-                                                      recusandae perspiciatis
-                                                      doloremque dolor ipsum
-                                                      eius ab dolorum. Nisi?
-                                                      Lorem ipsum dolor, sit
-                                                      amet consectetur
-                                                      adipisicing elit.
-                                                      Consequuntur voluptates
-                                                      laboriosam adipisci. Iusto
-                                                      blanditiis dicta deleniti
-                                                      vero praesentium,
-                                                      repudiandae minus velit
-                                                      amet illum minima ab
-                                                      consequatur, vitae, saepe
-                                                      atque rem?
-                                                      Lorem ipsum dolor sit
-                                                      amet, consectetur
-                                                      adipisicing elit. Dolorum
-                                                      temporibus ut sint id
-                                                      minus ullam necessitatibus
-                                                      cumque sunt quasi corrupti
-                                                      ipsum quibusdam dolorem,
-                                                      quis dicta voluptas autem
-                                                      commodi laboriosam.
-                                                      Corrupti!
-                                                </p>
-                                          </div>
-                                    </div>
-                              </div>
-                        </section>
-                        <section class="m-5 text-center">
-                              <h3 class="m-0">SKILLS</h3>
-                        </section>
-                        <section id="skills">
-                              <div class="container-lg">
+                  </section>
+                  <section class="m-5 text-center">
+                        <h3 class="m-0">ABOUT
+                              ME</h3>
+                  </section>
+                  <section id="about" class="mt-5">
+                        <div class="row">
+                              <div class="col-sm-12 shadow-lg py-5 px-5">
                                     <div class="row">
                                           <div class="col-sm-6">
-                                                <div class="skill-item mb-4">
-                                                      <h6
-                                                            class="mb-2">React</h6>
-
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <i
-                                                                  class="devicon-react-original colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="React skill"
-                                                                  aria-valuenow="70"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-info"
-                                                                        style="width: 70%">70%</div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                                <div class="skill-item mb-4">
-                                                      <h6
-                                                            class="mb-2">Node.js</h6>
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <i
-                                                                  class="devicon-nodejs-plain colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="Node.js skill"
-                                                                  aria-valuenow="65"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-success"
-                                                                        style="width: 65%">65%</div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-
-                                                <!-- HTML -->
-                                                <div class="skill-item mb-4">
-                                                      <h6 class="mb-2">HTML</h6>
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <i
-                                                                  class="devicon-html5-plain colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="HTML skill"
-                                                                  aria-valuenow="90"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-danger"
-                                                                        style="width: 90%">90%</div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                                <div class="skill-item mb-4">
-                                                      <h6
-                                                            class="mb-2">MySQL</h6>
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <i
-                                                                  class="devicon-mysql-plain colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="MySQL skill"
-                                                                  aria-valuenow="75"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-secondary"
-                                                                        style="width: 75%">75%</div>
-                                                            </div>
-                                                      </div>
-                                                </div>
+                                                <img src="./assets/avt.jpg" class="img-fluid rounded avatar" alt="...">
                                           </div>
                                           <div class="col-sm-6">
-                                                <div class="skill-item mb-4">
-                                                      <h6 class="mb-2">CSS</h6>
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <i
-                                                                  class="devicon-css3-plain colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="CSS skill"
-                                                                  aria-valuenow="80"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-primary"
-                                                                        style="width: 80%">80%</div>
+                                                <div class="d-flex flex-column gap-4">
+                                                      <h2 class="text-center">INFORMATION</h2>
+                                                      <div class="inf-items d-flex align-items-center gap-3">
+                                                            <i class="bi bi-person-circle"></i>
+                                                            <div>
+                                                                  <span>Full name</span>
+                                                                  <p>Tran The Hieu</p>
+                                                            </div>
+
+                                                      </div>
+                                                      <div class="inf-items d-flex align-items-center gap-3">
+                                                            <i class="bi bi-calendar-week"></i>
+                                                            <div>
+                                                                  <span>Birth day</span>
+                                                                  <p>18/01/2005</p>
+                                                            </div>
+
+                                                      </div>
+                                                      <div class="inf-items d-flex align-items-center gap-3">
+                                                            <i class="bi bi-geo-alt-fill"></i>
+                                                            <div>
+                                                                  <span>Location</span>
+                                                                  <p>Ha Noi</p>
+                                                            </div>
+
+                                                      </div>
+                                                      <div class="inf-items d-flex align-items-center gap-3">
+                                                            <i class="bi bi-envelope"></i>
+                                                            <div>
+                                                                  <span>Email</span>
+                                                                  <p>hieu.tt.2455@aptechlearning.edu.vn</p>
                                                             </div>
                                                       </div>
-                                                </div>
-
-                                                <!-- JavaScript -->
-                                                <div class="skill-item mb-4">
-                                                      <h6
-                                                            class="mb-2">JavaScript</h6>
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <i
-                                                                  class="devicon-javascript-plain colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="JavaScript skill"
-                                                                  aria-valuenow="85"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-warning text-dark"
-                                                                        style="width: 85%">85%</div>
+                                                      <div class="inf-items d-flex align-items-center gap-3">
+                                                            <i class="bi bi-briefcase-fill"></i>
+                                                            <div>
+                                                                  <span>Education</span>
+                                                                  <p>Aptech 285 Doi Can</p>
                                                             </div>
-                                                      </div>
-                                                </div>
 
-                                                <!-- MongoDB -->
-                                                <div class="skill-item mb-4">
-                                                      <h6
-                                                            class="mb-2">MongoDB</h6>
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <i
-                                                                  class="devicon-mongodb-plain colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="MongoDB skill"
-                                                                  aria-valuenow="60"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-success"
-                                                                        style="width: 60%">60%</div>
-                                                            </div>
                                                       </div>
-                                                </div>
-                                                <div class="skill-item mb-4">
-                                                      <!-- Tên skill -->
-                                                      <h6
-                                                            class="mb-2">Python</h6>
+                                                      <div class="description mt-5">
+                                                            <p style="text-indent: 30px;"> I’m a software engineer who
+                                                                  loves turning ideas into smooth,
+                                                                  user-friendly digital experiences. My main focus is on
+                                                                  frontend development with React and Next.js, where I
+                                                                  enjoy
+                                                                  crafting interfaces that feel both intuitive and
+                                                                  performant.
+                                                                  At the same time, I’m confident working on the backend
+                                                                  with
+                                                                  tools like Node.js and NestJS, which helps me approach
+                                                                  projects from a full-stack perspective.</p>
+                                                            <br>
+                                                            <p style="text-indent: 30px;"> What excites me most about
+                                                                  technology is the opportunity to
+                                                                  solve real problems and create products that people
+                                                                  genuinely enjoy using. I’ve had the chance to
+                                                                  collaborate
+                                                                  with motivated teammates on projects that emphasize
+                                                                  accessibility, scalability, and clean design.</p>
+                                                            <br>
+                                                            <p style="text-indent: 30px;"> Outside of coding, I’m always
+                                                                  curious—whether that’s
+                                                                  experimenting with new frameworks, sharing knowledge
+                                                                  in the
+                                                                  developer community, or exploring the latest tech
+                                                                  trends to
+                                                                  sharpen my skills.</p>
 
-                                                      <!-- Icon + progress bar -->
-                                                      <div
-                                                            class="d-flex align-items-center">
-                                                            <!-- Icon -->
-                                                            <i
-                                                                  class="devicon-python-plain colored"
-                                                                  style="font-size: 40px; width: 50px;"></i>
-
-                                                            <!-- Progress bar -->
-                                                            <div
-                                                                  class="progress flex-grow-1 ms-3"
-                                                                  role="progressbar"
-                                                                  aria-label="Python skill"
-                                                                  aria-valuenow="65"
-                                                                  aria-valuemin="0"
-                                                                  aria-valuemax="100">
-                                                                  <div
-                                                                        class="progress-bar bg-warning"
-                                                                        style="width: 65%">65%</div>
-                                                            </div>
                                                       </div>
+                                                      <div class="d-flex align-items-center gap-4 py-2">
+                                                            <button type="button" class="btn btn-primary m-0">Download
+                                                                  resume</button>
+                                                            <button type="button" class="btn-custom">More info</button>
+                                                      </div>
+
                                                 </div>
 
                                           </div>
                                     </div>
-
-                              </section>
-                              <section class="m-5 text-center">
-                                    <h3 class="m-0">PROJECTS</h3>
-                              </section>
-                              <section id="projects" class="mt-5">
-                                    <div class="container">
-                                          <div class="row">
-                                                <div class="col-sm-12">
-                                                      <div
-                                                            class="box-prpjects d-flex justify-content-center align-items-start flex-wrap gap-3">
-                                                            <div class="card"
-                                                                  style="width: 18rem;">
-                                                                  <img
-                                                                        src="./assets/projects.png"
-                                                                        class="card-img-top"
-                                                                        alt="...">
-                                                                  <div
-                                                                        class="card-body">
-                                                                        <h5
-                                                                              class="card-title">Card
-                                                                              title</h5>
-                                                                        <p
-                                                                              class="card-text">Some
-                                                                              quick
-                                                                              example
-                                                                              text
-                                                                              to
-                                                                              build
-                                                                              on
-                                                                              the
-                                                                              card
-                                                                              title
-                                                                              and
-                                                                              make
-                                                                              up
-                                                                              the
-                                                                              bulk
-                                                                              of
-                                                                              the
-                                                                              card’s
-                                                                              content.</p>
-                                                                        <a
-                                                                              href="#"
-                                                                              class="btn btn-primary btn-sm">Details</a>
-                                                                  </div>
-                                                            </div>
-                                                            <div class="card"
-                                                                  style="width: 18rem;">
-                                                                  <img
-                                                                        src="./assets/projects.png"
-                                                                        class="card-img-top"
-                                                                        alt="...">
-                                                                  <div
-                                                                        class="card-body">
-                                                                        <h5
-                                                                              class="card-title">Card
-                                                                              title</h5>
-                                                                        <p
-                                                                              class="card-text">Some
-                                                                              quick
-                                                                              example
-                                                                              text
-                                                                              to
-                                                                              build
-                                                                              on
-                                                                              the
-                                                                              card
-                                                                              title
-                                                                              and
-                                                                              make
-                                                                              up
-                                                                              the
-                                                                              bulk
-                                                                              of
-                                                                              the
-                                                                              card’s
-                                                                              content.</p>
-                                                                        <a
-                                                                              href="#"
-                                                                              class="btn btn-primary btn-sm">Details</a>
-                                                                  </div>
-                                                            </div>
-                                                            <div class="card"
-                                                                  style="width: 18rem;">
-                                                                  <img
-                                                                        src="./assets/projects.png"
-                                                                        class="card-img-top"
-                                                                        alt="...">
-                                                                  <div
-                                                                        class="card-body">
-                                                                        <h5
-                                                                              class="card-title">Card
-                                                                              title</h5>
-                                                                        <p
-                                                                              class="card-text">Some
-                                                                              quick
-                                                                              example
-                                                                              text
-                                                                              to
-                                                                              build
-                                                                              on
-                                                                              the
-                                                                              card
-                                                                              title
-                                                                              and
-                                                                              make
-                                                                              up
-                                                                              the
-                                                                              bulk
-                                                                              of
-                                                                              the
-                                                                              card’s
-                                                                              content.</p>
-                                                                        <a
-                                                                              href="#"
-                                                                              class="btn btn-primary  btn-sm">Details</a>
-                                                                  </div>
-                                                            </div>
-                                                            <div class="card"
-                                                                  style="width: 18rem;">
-                                                                  <img
-                                                                        src="./assets/projects.png"
-                                                                        class="card-img-top"
-                                                                        alt="...">
-                                                                  <div
-                                                                        class="card-body">
-                                                                        <h5
-                                                                              class="card-title">Card
-                                                                              title</h5>
-                                                                        <p
-                                                                              class="card-text">Some
-                                                                              quick
-                                                                              example
-                                                                              text
-                                                                              to
-                                                                              build
-                                                                              on
-                                                                              the
-                                                                              card
-                                                                              title
-                                                                              and
-                                                                              make
-                                                                              up
-                                                                              the
-                                                                              bulk
-                                                                              of
-                                                                              the
-                                                                              card’s
-                                                                              content.</p>
-                                                                        <a
-                                                                              href="#"
-                                                                              class="btn btn-primary btn-sm">Details</a>
-                                                                  </div>
-                                                            </div>
-
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </section>
-                              <section class="m-5 text-center">
-                                    <h3 class="m-0">CONTACT</h3>
-                              </section>
-                              <section id="contact">
-                                    <div class="container-lg">
-                                          <div class="row">
-                                                <div class="col-sm-6">
-                                                      <div class="contact-inf">
-                                                            <div
-                                                                  class="contact-item d-flex align-items-center mb-3">
-                                                                  <i
-                                                                        class="bi bi-envelope-fill me-3 fs-4 text-primary"></i>
-
-                                                                  <div>
-                                                                        <h6
-                                                                              class="mb-1">Email</h6>
-                                                                        <p
-                                                                              class="mb-0">hieu.tt.2455@aptechlearning.edu.vn</p>
-                                                                  </div>
-                                                            </div>
-                                                            <div
-                                                                  class="contact-item d-flex align-items-center mb-3">
-                                                                  <i
-                                                                        class="bi bi-github me-3 fs-4 text-primary"></i>
-
-                                                                  <div>
-                                                                        <h6
-                                                                              class="mb-1">Github</h6>
-                                                                        <p
-                                                                              class="mb-0">https://github.com/HieuTrann18</p>
-                                                                  </div>
-                                                            </div>
-                                                            <div
-                                                                  class="contact-item d-flex align-items-center mb-3">
-                                                                  <i
-                                                                        class="bi bi-linkedin me-3 fs-4 text-primary"></i>
-
-                                                                  <div>
-                                                                        <h6
-                                                                              class="mb-1">Linkedin</h6>
-                                                                        <p
-                                                                              class="mb-0">https://www.linkedin.com</p>
-                                                                  </div>
-                                                            </div>
-                                                            <div
-                                                                  class="contact-item d-flex align-items-center mb-3">
-                                                                  <i
-                                                                        class="bi bi-discord me-3 fs-4 text-primary"></i>
-
-                                                                  <div>
-                                                                        <h6
-                                                                              class="mb-1">Discord</h6>
-                                                                        <p
-                                                                              class="mb-0">https://discord.com</p>
-                                                                  </div>
-                                                            </div>
-
-                                                      </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                      <div class="form">
-                                                            <div class="mb-3">
-                                                                  <label
-                                                                        for="exampleFormControlInput1"
-                                                                        class="form-label">Name</label>
-                                                                  <input
-                                                                        type="email"
-                                                                        class="form-control"
-                                                                        id="exampleFormControlInput1"
-                                                                        placeholder="name@example.com">
-                                                            </div>
-                                                            <div class="mb-3">
-                                                                  <label
-                                                                        for="exampleFormControlInput1"
-                                                                        class="form-label">Email
-                                                                        address</label>
-                                                                  <input
-                                                                        type="email"
-                                                                        class="form-control"
-                                                                        id="exampleFormControlInput1"
-                                                                        placeholder="name@example.com">
-                                                            </div>
-                                                            <div class="mb-3">
-                                                                  <label
-                                                                        for="exampleFormControlTextarea1"
-                                                                        class="form-label">Example
-                                                                        textarea</label>
-                                                                  <textarea
-                                                                        class="form-control"
-                                                                        id="exampleFormControlTextarea1"
-                                                                        rows="3"></textarea>
-                                                            </div>
-                                                            <button
-                                                                  type="button"
-                                                                  class="btn btn-success">Send</button>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </section>
-                     
+                              </div>
                         </div>
-                  </main>
-                  <footer id="footer"></footer>
-            </body>
-            <script
-                  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-                  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-                  crossorigin="anonymous"></script>
-      </html>
+                  </section>
+                  <section class="m-5 text-center">
+                        <h3 class="m-0">SKILLS</h3>
+                  </section>
+                  <section id="skills">
+
+                        <div class="row">
+                              <div class="col-sm-6">
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">React</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-react-original colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="React skill" aria-valuenow="70" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-info" style="width: 70%">70%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">Node.js</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-nodejs-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="Node.js skill" aria-valuenow="65" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-success" style="width: 65%">65%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                                    <!-- HTML -->
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">HTML</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-html5-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="HTML skill" aria-valuenow="90" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-danger" style="width: 90%">90%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">MySQL</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-mysql-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="MySQL skill" aria-valuenow="75" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-secondary" style="width: 75%">
+                                                            75%</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">CSS</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-css3-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="CSS skill" aria-valuenow="80" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-primary" style="width: 80%">80%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                                    <!-- JavaScript -->
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">JavaScript</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-javascript-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="JavaScript skill" aria-valuenow="85" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-warning text-dark" style="width: 85%">
+                                                            85%</div>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                                    <!-- MongoDB -->
+                                    <div class="skill-item mb-4">
+                                          <h6 class="mb-2">MongoDB</h6>
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <i class="devicon-mongodb-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="MongoDB skill" aria-valuenow="60" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-success" style="width: 60%">60%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="skill-item mb-4">
+                                          <!-- Tên skill -->
+                                          <h6 class="mb-2">Python</h6>
+
+                                          <!-- Icon + progress bar -->
+                                          <div class="d-flex align-items-center shadow-lg py-2 px-2 rounded">
+                                                <!-- Icon -->
+                                                <i class="devicon-python-plain colored"
+                                                      style="font-size: 40px; width: 50px;"></i>
+
+                                                <!-- Progress bar -->
+                                                <div class="progress flex-grow-1 ms-3" role="progressbar"
+                                                      aria-label="Python skill" aria-valuenow="65" aria-valuemin="0"
+                                                      aria-valuemax="100">
+                                                      <div class="progress-bar bg-warning" style="width: 65%">65%
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                              </div>
+                        </div>
+
+                  </section>
+                  <section class="m-5 text-center">
+                        <h3 class="m-0">PROJECTS</h3>
+                  </section>
+                  <section id="projects" class="mt-5">
+                        <div class="row">
+                              <div class="col-sm-12">
+                                    <div
+                                          class="box-projects d-flex justify-content-center align-items-start flex-wrap gap-3">
+                                          <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="./assets/prj1.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                      <h5 class="card-title">Portfolio
+                                                            website</h5>
+                                                      <p class="card-text">This is my first project where I learned how
+                                                            to use HTML, CSS, and JavaScript to build a simple website.
+                                                      </p>
+                                                      <a href="#" class="btn btn-primary btn-sm">Details</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="m-5 text-center">
+                        <h3 class="m-0">CONTACT</h3>
+                  </section>
+                  <section id="contact">
+                        <div class="row">
+                              <div class="col-sm-6">
+
+                                    <div
+                                          class="contact-inf d-flex justify-content-between flex-column shadow-lg py-4 px-4 w-100 rounded h-100">
+                                          <h2 class="py-2">Contact Information</h2>
+                                          <div class="contact-item d-flex align-items-center mb-3">
+                                                <i class="bi bi-envelope-fill me-3 fs-4 text-primary"></i>
+
+                                                <div>
+                                                      <h6 class="mb-1">Email</h6>
+                                                      <p class="mb-0">hieu.tt.2455@aptechlearning.edu.vn</p>
+                                                </div>
+                                          </div>
+                                          <div class="contact-item d-flex align-items-center mb-3">
+                                                <i class="bi bi-github me-3 fs-4 text-primary"></i>
+
+                                                <div>
+                                                      <h6 class="mb-1">Github</h6>
+                                                      <p class="mb-0">https://github.com/HieuTrann18</p>
+                                                </div>
+                                          </div>
+                                          <div class="contact-item d-flex align-items-center mb-3">
+                                                <i class="bi bi-linkedin me-3 fs-4 text-primary"></i>
+
+                                                <div>
+                                                      <h6 class="mb-1">Linkedin</h6>
+                                                      <p class="mb-0">https://www.linkedin.com</p>
+                                                </div>
+                                          </div>
+                                          <div class="contact-item d-flex align-items-center mb-3">
+                                                <i class="bi bi-discord me-3 fs-4 text-primary"></i>
+
+                                                <div>
+                                                      <h6 class="mb-1">Discord</h6>
+                                                      <p class="mb-0">https://discord.com</p>
+                                                </div>
+                                          </div>
+                                          <p></p>
+
+                                    </div>
+                              </div>
+                              <div class="col-sm-6">
+
+                                    <div class="form shadow-lg py-4 px-4 rounded">
+                                          <h2 class="py-2">
+                                                Send Me a Message</h2>
+                                          <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                      placeholder="name@example.com">
+                                          </div>
+                                          <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Email
+                                                      address</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                      placeholder="name@example.com">
+                                          </div>
+                                          <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label">Example
+                                                      textarea</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                      rows="3"></textarea>
+                                          </div>
+                                          <button type="button" class="btn btn-success">Send</button>
+                                    </div>
+                              </div>
+                        </div>
+
+                  </section>
+            </div>
+      </main>
+      <footer id="footer" class="shadow-lg">
+            <div class="container-lg">
+                  <div class="row">
+                        <div class="col-sm-12">
+                              <div class="footer-content py-4 d-flex justify-content-between">
+                                    <div class="copyright"> <a class="navbar-brand" href="#">hieut.in</a>
+                                          <p>© 2025 HieuTran. All rights reserved.</p>
+                                    </div>
+                                    <div class="social-links d-flex flex-row gap-4 align-items-center">
+                                          <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                href="#"><i class="bi bi-facebook fs-5"></i></a>
+                                          <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                href="#"><i class="bi bi-instagram fs-5"></i></a>
+                                          <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                href="#"><i class="bi bi-github fs-5"></i></a>
+                                          <a class="text-dark shadow-lg px-2 py-2 d-flex align-items-center justify-content-center"
+                                                href="#"><i class="bi bi-linkedin fs-5"></i></a>
+                                    </div>
+
+                              </div>
+
+                        </div>
+                  </div>
+            </div>
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+
+</html>
